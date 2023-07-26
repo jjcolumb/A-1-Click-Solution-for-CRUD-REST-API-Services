@@ -9,31 +9,39 @@ This topic contains step-by-step instructions on how to create an application wi
 
 1.  Create a new solution in Visual Studio. Select the  **DevExpress v22.1  XAF Template Gallery**  project template and click  **Next**.
     
-    ![Create a new project from the XAF Template Gallery](https://docs.devexpress.com/eXpressAppFramework/images/create-web-api-wizard.png?v=22.1)
+    ![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/4564da2b-8957-4036-9d39-4d558a1d82c6)
+
     
 2.  Specify the name and location of the new project (solution), and click  **Create**.
     
 3.  Ensure that the  **.NET Core**  platform is selected and run the  **XAF Solution Wizard**.
     
-    ![Tutorial launch Wizard](https://docs.devexpress.com/eXpressAppFramework/images/btutorial_bmd_lesson1_1_1.png?v=22.1)
+    ![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/101e538c-7b93-42c6-98fe-df973555bf78)
+
     
 4.  In the Solution Wizard, select  **Service (ASP.NET Core Web API)**  and other platforms that you wish to add to the solution.
     
-    ![Select Web (ASP.NET Core Blazor)](https://docs.devexpress.com/eXpressAppFramework/images/btutor_solution_wizard_platform_select.png?v=22.1)
+    ![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/83f5a694-6203-4d87-878b-a63396da1fda)
+
+
     
 5.  Select the  **eXpress Persistent Objects**  or  **Entity Framework Core**  ORM for your application and click  **Next**.
     
-    ![Select ORM](https://docs.devexpress.com/eXpressAppFramework/images/web-api-wizard-orm.png?v=22.1)
+    ![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/0eb336bc-9bba-441f-83e9-38f64d34449f)
+
+
     
 6.  Choose the security options for your application.
     
-    ![Select authentication](https://docs.devexpress.com/eXpressAppFramework/images/create-web-api-wizard-auth.png?v=22.1)
+    ![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/17d12e51-06d6-46b4-aec6-69402c93ac10)
+
     
     See the following topic for details:  [Authentication in Web API projects](https://docs.devexpress.com/eXpressAppFramework/403413/backend-web-api-service/authentication-in-web-api-projects?v=22.1).
     
     If you selected ASP.NET Core Blazor on the  **Choose Target Platforms**  page, you can also specify if the Web API service should be added as a separate project or integrated into Blazor application project:
     
-    ![Select authentication](https://docs.devexpress.com/eXpressAppFramework/images/create-web-api-wizard-auth-and-projects.png?v=22.1)
+    ![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/71072fae-c700-4a4c-8d55-54b6bcbe8b5e)
+
     
 7.  [Create endpoints and test the Web API](https://docs.devexpress.com/eXpressAppFramework/403551/backend-web-api-service/test-web-api?v=22.1).
 
@@ -44,24 +52,28 @@ This topic contains step-by-step instructions on how to add a  [Web API](https:/
 
 1.  Use the  [Solution Wizard](https://docs.devexpress.com/eXpressAppFramework/113624/installation-upgrade-version-history/visual-studio-integration/solution-wizard?v=22.1)  to add a Web API project to your application. Right-click the solution in the  **Solution Explorer**  and choose  **Add DevExpress Item | New Project…**.
     
-    ![Solution](https://docs.devexpress.com/eXpressAppFramework/images/solution-wizard-context-menu.png?v=22.1)
+    ![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/74f24a97-a380-4b22-b33f-1c36a9f033d6)
+
     
 2.  Select the  **.NET Core**  platform and run the  **XAF Solution Wizard**.
     
-    ![Tutorial launch Wizard](https://docs.devexpress.com/eXpressAppFramework/images/btutorial_bmd_lesson1_1_1.png?v=22.1)
+    ![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/6b35e09c-8dd7-4309-afb0-3caed1c401a0)
+
     
 3.  Choose the  **ASP.NET Core Web API Service**  option and specify the project name.
     
-    ![Tutorial launch Wizard](https://docs.devexpress.com/eXpressAppFramework/images/select-web-api.png?v=22.1)
+    ![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/685f15a2-1cd7-4a8c-a941-a097c4cc2e6c)
+
     
 4.  Select the  **eXpress Persistent Objects**  or  **Entity Framework Core**  ORM for your application and click  **Next**.
     
-    ![Select ORM](https://docs.devexpress.com/eXpressAppFramework/images/web-api-wizard-orm.png?v=22.1)
+    ![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/c9bfa61a-037e-4e1e-8cfc-8baaab2fa2b0)
+
     
 5.  _Optional._  Choose the security options for your application and click  **Finish**. See the following topic for details:  [Authentication in Web API projects](https://docs.devexpress.com/eXpressAppFramework/403413/backend-web-api-service/authentication-in-web-api-projects?v=22.1).
     
-    ![Select authentication](https://docs.devexpress.com/eXpressAppFramework/images/create-web-api-wizard-auth.png?v=22.1)
-    
+    ![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/fb9b20ce-ef4b-4484-ac37-de11e7577730)
+
     The wizard adds the Web API project to your application.
     
     If you use the  **Sha512**  algorithm to encrypt passwords in your application, set the  **PasswordCryptographer.SupportLegacySha512**  property to  `true`  in the Web API project  _Startup.cs_  file for backward compatibility:
@@ -218,10 +230,8 @@ Refer to the following link for more information on the page’s UI:  [Swagger U
 
 The default configuration starts the Web API service on different ports depending on the project:
 
-![image](https://github.com/lianhdez95/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/e91873a0-0d88-4f24-850f-d0d01353944d)
+![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/c68cf1c5-fb99-4531-afbb-96e8cd4e5b8f)
 
-
-![XAF Web API](https://docs.devexpress.com/eXpressAppFramework/images/create-web-api-swagger.png?v=22.1)
 
 Test the Web API. Expand the  **GET ApplicationUser**  endpoint and click the  **Try it out**  button. The  **Execute**  button is displayed. Click this button to see the result.
 
@@ -234,7 +244,8 @@ To test the **Web API** service hosted on _localhost_, install the Postman deskt
 
 The image below shows a request to the  _Contact_  business object filtered by  _FirstName_  in the Postman Web UI (`https://web.postman.co/home`):
 
-![Use Postman to create a Web API request](https://docs.devexpress.com/eXpressAppFramework/images/web-api-postman.png?v=22.1)
+![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/1fe4ebcc-c2dc-45d2-ab38-8bcf879a6658)
+
 
 See the following topics for more information on  [OData](https://docs.microsoft.com/en-us/odata/overview)  query options:
 
@@ -700,7 +711,8 @@ The  **Web API**  supports all standard ASP.NET Core  [authentication](https://d
 
 If you use the  [Solution Wizard](https://docs.devexpress.com/eXpressAppFramework/113624/installation-upgrade-version-history/visual-studio-integration/solution-wizard?v=22.1)  to create a  **Web API**  project, enable authentication on the  **Choose Security**  page:
 
-![Select authentication](https://docs.devexpress.com/eXpressAppFramework/images/create-web-api-wizard-auth.png?v=22.1)
+![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/308c6871-2613-47a6-9c00-759c54baa19e)
+
 
 **Standard Authentication**
 
@@ -728,7 +740,8 @@ See the following topics for information on how to configure the authentication 
 
 Use the  [Solution Wizard](https://docs.devexpress.com/eXpressAppFramework/113624/installation-upgrade-version-history/visual-studio-integration/solution-wizard?v=22.1)  to create a  **Web API**  project with the JWT authentication. If you choose  **Standard**  authentication on the  **Choose Security**  page, the wizard generates  [JWT](https://en.wikipedia.org/wiki/JSON_Web_Token)  authentication scaffolding code.
 
-![Enable the JWT authentication](https://docs.devexpress.com/eXpressAppFramework/images/web-api-wizard-auth-jwt.png?v=22.1)
+![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/37f5d683-a6c9-4218-9f04-39dc3a827b5d)
+
 
 You can replace the autogenerated  **IssuerSigningKey**  value with your JWT signing key and change other JWT settings in the  _appsettings.json_  file. We recommend that you use the  [Secret Manager](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets)  tool to store the signing key. You can store it in the  _appsettings.json_  file for testing purposes only.
 
@@ -935,9 +948,8 @@ Refer to the following link for more information on the page’s UI:  [Swagger U
     
 3.  In the displayed form, enter the  **userName**  and  **password**  for an authorized user. In a template application, use  _Admin_  as the user name and an empty string as the password.
     
-4.  Copy the public key from the  _Response body_, click the  **Authorize**  button  ![Authorize button](https://docs.devexpress.com/eXpressAppFramework/images/create-web-api-authorize-button.png?v=22.1)  to open the  **Available authorizations**  form, and paste the public key in the  **Value**  editor to enable the JWT authentication.
+4.  Copy the public key from the  _Response body_, click the  **Authorize**  button  ![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/a94eeff1-7d02-41eb-8e3a-2749230d7d40) to open the  **Available authorizations**  form, and paste the public key in the  **Value**  editor to enable the JWT authentication.
     
-![](https://docs.devexpress.com/eXpressAppFramework/images/jwt-authentication.gif?v=22.1)
 
 Refer to the following topic for information on how to create Web API endpoints:  [Create Endpoints and Test the Web API](https://docs.devexpress.com/eXpressAppFramework/403551/backend-web-api-service/test-web-api?v=22.1).
 
@@ -952,7 +964,8 @@ The  **Web API**  supports the OAuth2 Azure Authentication. To use it,  [set up]
 
 Use the  [Solution Wizard](https://docs.devexpress.com/eXpressAppFramework/113624/installation-upgrade-version-history/visual-studio-integration/solution-wizard?v=22.1)  to create a  **Web API**  project. Enable the OAuth2 Azure Authentication on the  **Choose Security**  page:
 
-![Select authentication](https://docs.devexpress.com/eXpressAppFramework/images/create-web-api-wizard-auth.png?v=22.1)
+![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/fc8ea4f8-e90e-4acc-85b0-c9b663086376)
+
 
 The wizard generates  [Azure AD](https://azure.microsoft.com/en-us/products/active-directory/)  authentication scaffolding code.
 
@@ -1225,11 +1238,13 @@ XAF requires the  _ApplicationUser_  and  _ApplicationUserLoginInfo_  business o
     
     Refer to the following link for more information on the page’s UI:  [Swagger UI](https://swagger.io/tools/swagger-ui/).
     
-    ![Select authentication](https://docs.devexpress.com/eXpressAppFramework/images/create-web-api-swagger.png?v=22.1)
+    ![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/b0c28729-1df6-4eb8-b64e-68c72e01a198)
+
     
-2.  Click the  **Authorize**  button:  ![Authorize button](https://docs.devexpress.com/eXpressAppFramework/images/create-web-api-authorize-button.png?v=22.1). In the  **Available authorizations**  window, select a scope and click the  **Authorize**  button:
+2.  Click the  **Authorize**  button:  ![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/d23cdeca-4bb2-4384-a74e-61e5f56aba9e). In the  **Available authorizations**  window, select a scope and click the  **Authorize**  button:
     
-    ![The Available authorizations form](https://docs.devexpress.com/eXpressAppFramework/images/create-web-api-authorization.png?v=22.1)
+    ![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/c88e53ff-64c1-4c23-84ee-b7f5c3372358)
+
     
     Refer to the following topic for information on how to create Web API endpoints:  [Create Endpoints and Test the Web API](https://docs.devexpress.com/eXpressAppFramework/403551/backend-web-api-service/test-web-api?v=22.1).
 
@@ -1241,7 +1256,8 @@ You can create custom endpoints for the  [Web API service](https://docs.devexpre
 
 1.  Right-click the project that contains a Web API service and select  **Add -> New Item**  in the context menu. Choose the  **API Controller – Empty**  template in the invoked window.
     
-    ![Add API Controller](https://docs.devexpress.com/eXpressAppFramework/images/add-api-controller.jpg?v=22.1)
+    ![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/6a6994e6-395b-4d04-b4ac-fd40806bfb6f)
+
     
 2.  Add custom endpoint methods to the new Controller (the Get, Post, Put, and Delete methods in the example below).
     
@@ -1300,34 +1316,8 @@ This topic describes how to access an  [Object Space](https://docs.devexpress.co
 
 ## Useful APIs
 
-Object to access
+![image](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/assets/126447472/b650b64b-88f3-48d9-b5b1-fdfd5a141f3f)
 
-Injecting service
-
-Methods and properties
-
-[Object Space](https://docs.devexpress.com/eXpressAppFramework/113707/data-manipulation-and-business-logic/object-space?v=22.1)
-
-[IObjectSpaceFactory](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Core.IObjectSpaceFactory?v=22.1)  
-[INonSecuredObjectSpaceFactory](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Core.INonSecuredObjectSpaceFactory?v=22.1)
-
-[IObjectSpaceFactory.CreateObjectSpace](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Core.IObjectSpaceFactory.CreateObjectSpace(System.Type)?v=22.1)  
-[INonSecuredObjectSpaceFactory.CreateObjectSpace](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Core.INonSecuredObjectSpaceFactory.CreateNonSecuredObjectSpace(System.Type)?v=22.1)
-
-[Security System](https://docs.devexpress.com/eXpressAppFramework/113366/data-security-and-safety/security-system?v=22.1)
-
-[ISecurityProvider](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Security.ISecurityProvider?v=22.1)  
-[ISecurityStrategyBase](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Security.ISecurityStrategyBase?v=22.1)
-
-[ISecurityProvider.GetSecurity](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Security.ISecurityProvider.GetSecurity?v=22.1)  
-[ISecurityStrategyBase.IsAuthenticated](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Security.ISecurityStrategyBase.IsAuthenticated?v=22.1)  
-[ISecurityStrategyBase.User](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Security.ISecurityStrategyBase.User?v=22.1)
-
-[Caption Helper](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Utils.CaptionHelper?v=22.1)
-
-[ISharedCaptionHelperProvider](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.AspNetCore.Services.Localization.ISharedCaptionHelperProvider?v=22.1)
-
-[ISharedCaptionHelperProvider.GetCaptionHelper](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.AspNetCore.Services.Localization.ISharedCaptionHelperProvider.GetCaptionHelper?v=22.1)
 
 ## Prerequisites
 
