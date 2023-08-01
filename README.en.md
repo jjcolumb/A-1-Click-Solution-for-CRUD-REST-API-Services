@@ -1,7 +1,6 @@
 # A-1-Click-Solution-for-CRUD-REST-API-Services
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services#readme)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/blob/master/README.es.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/jjcolumb/A-1-Click-Solution-for-CRUD-REST-API-Services/blob/master/README.md)
 
 # Create a New Application with the Web API
 
